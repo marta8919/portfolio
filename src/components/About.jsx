@@ -2,9 +2,14 @@ import React from "react";
 import Container from "@material-ui/core/Container";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
+import Footer from './Footer'
+import Slide from 'react-reveal/Slide';
+
 
 export default function About() {
   return (
+    <>
+    <Slide bottom>
     <Container maxWidth="md">
       <div className="section">
         <h1 className="title">About</h1>
@@ -39,54 +44,52 @@ export default function About() {
         </p>
         <div className="hobbies-section">
           <Card className="my-card">
-            {" "}
             <img
               className="img-card"
-              src="https://res.cloudinary.com/martacloud/image/upload/v1615821172/undraw_react_y7wq_toodlw.png"
+              src="https://res.cloudinary.com/martacloud/image/upload/v1615912463/undraw_media_player_ylg8_px5fsc.png"
             ></img>
-            <CardContent className="tag">#React</CardContent>
+            <CardContent className="tag">#Frontend</CardContent>
           </Card>
           <Card className="my-card">
-            {" "}
             <img
               className="img-card"
-              src="https://res.cloudinary.com/martacloud/image/upload/v1615821172/undraw_Scrum_board_re_wk7v_qn3rt5.png"
+              src="https://res.cloudinary.com/martacloud/image/upload/v1615911655/undraw_To_do_re_jaef_gwdxck.png"
             ></img>
             <CardContent className="tag">#Productivity</CardContent>
           </Card>
           <Card className="my-card">
             <img
               className="img-card"
-              src="https://res.cloudinary.com/martacloud/image/upload/v1615821172/undraw_Devices_re_dxae_1_uexctb.png"
+              src="https://res.cloudinary.com/martacloud/image/upload/v1615911744/undraw_Images_re_0kll_1_ij3dwa.png"
             ></img>
-            <CardContent className="tag">#Responsive Design</CardContent>
+            <CardContent className="tag">#Responsive</CardContent>
           </Card>
           <Card className="my-card">
-            {" "}
             <img
               className="img-card"
-              src="https://res.cloudinary.com/martacloud/image/upload/v1615821280/undraw_Reading_re_29f8_yvktvf.png"
+              src="https://res.cloudinary.com/martacloud/image/upload/v1615911639/undraw_Books_l33t_ynfnot.png"
             ></img>
             <CardContent className="tag">#Reading</CardContent>
           </Card>
           <Card className="my-card">
-            {" "}
             <img
               className="img-card"
-              src="https://res.cloudinary.com/martacloud/image/upload/v1615821172/undraw_yoga_248n_1_kftb58.png"
+              src="https://res.cloudinary.com/martacloud/image/upload/v1615911785/undraw_social_serenity_vhix_xiqlnt.png"
             ></img>
             <CardContent className="tag">#Yoga</CardContent>
           </Card>
           <Card className="my-card">
-            {" "}
             <img
               className="img-card"
-              src="https://res.cloudinary.com/martacloud/image/upload/v1615821242/undraw_noted_pc9f_zirmy0.png"
+              src="https://res.cloudinary.com/martacloud/image/upload/v1615911911/undraw_online_resume_re_ru7s_cinz2u.png"
             ></img>
             <CardContent className="tag">#Writing</CardContent>
           </Card>
         </div>
       </div>
     </Container>
+    <Footer/>
+    </Slide>
+    </>
   );
 }

@@ -6,6 +6,7 @@ import HomePage from './components/HomePage'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import NotFound from './components/NotFound'
 
 function App() {
   return (
@@ -24,8 +25,13 @@ function App() {
         <Route exact path="/contact">
           <Contact />
         </Route>
+        <Route
+            render={() => {
+              return <NotFound />;
+            }}
+          />
       </Switch>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

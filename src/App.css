@@ -15,6 +15,8 @@
 .my-nav {
   width: 100%;
   background-color: var(--main-bluelight);
+  position: fixed;
+  top: 0;
 }
 
 .main {
@@ -23,29 +25,25 @@
   align-items: center;
   justify-content: center;
   font-family: "Comfortaa", cursive;
+  color: var(--main-blue);
 }
 
-.intro {
-  margin: 70px;
-  font-family: monospace;
-  text-align: center;
-  font-size: 20px;
 
-  padding: 60px;
-  color: white;
-  border-radius: 5px;
-}
 
 .intro-page {
   background-image: url("https://res.cloudinary.com/martacloud/image/upload/v1615807906/background_jgnt0r.png");
-  margin: 0;
+  background-size: cover;
   width: 100%;
-  height: 60%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .my-navlink {
   margin: 10px;
-  color: white;
+  color: var(--main-blue)
 }
 
 .my-navlink:hover {
@@ -69,7 +67,8 @@
 }
 
 .img-card {
-  width: 170px;
+  width: 200px;
+  height: 120px;
   margin: 30px;
 }
 
@@ -92,11 +91,85 @@
 }
 
 .my-footer{
-  background-image: url("https://res.cloudinary.com/martacloud/image/upload/v1615807906/background_jgnt0r.png");
   width: 100%;
   text-align: center;
   padding: 10px;
-  color: white;
+  color: var(--main-blue);
   margin-top: 40px;
 }
+
+.my-footer a {
+  color: var(--main-blue);
+}
+
+
+.project-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-screenshot{
+  width: 200px;
+  margin: 20px;
+}
+
+.my-project-card{
+  display: flex;
+  margin: 30px;
+}
+
+.project-section{
+  display: flex;
+}
+
+.project-link a {
+  margin: 15px 15px 15px 0;
+}
+
+.highlight {
+  background-color: var(--main-orange);
+  border-radius: 5px;
+  padding: 2px;
+  margin: 5px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.contact-links a {
+  margin: 20px;
+}
+
+.contact-page{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fake-code {
+  border: 1px solid var(--main-blue);
+  background-color: rgba(255, 255, 255, 0.507);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.my-link{
+  color: #415164;
+  margin: 20px 40px 20px 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.my-link:hover{
+  text-decoration: none;
+  color: var(--main-orange);
+  background-color: var(--main-blue);
+}
+
 

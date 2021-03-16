@@ -1,0 +1,8 @@
+/node_modules
+
+#package-lock
+package-lock.json
+
+#config vscode
+launch.json
+settings.json
