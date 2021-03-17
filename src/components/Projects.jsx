@@ -11,11 +11,12 @@ import Footer from './Footer'
 export default function Projects() {
   return (
     <Slide bottom>
-      <Container maxWidth="md">
+      <Container maxWidth="md" className="my-container">
+        
         <h1 className="title projects">Projects</h1>
         <div className="project-section">
           <a href="https://the-social-code.herokuapp.com/">
-            {" "}
+
             <img
               className="project-screenshot"
               src="https://res.cloudinary.com/martacloud/image/upload/v1615887028/Captura_de_pantalla_2021-03-16_a_las_10.30.14-removebg-preview_hmhcf5.png"
@@ -32,14 +33,16 @@ export default function Projects() {
                 personal project, with the idea of creating a platform that
                 would allow developers to stay in touch.
               </p>
-              <p className="techstack">
+              
+              <div className="techstack">
                 <span className="highlight">#React</span>
                 <span className="highlight">#NodeJs</span>
                 <span className="highlight">#MongoDB</span>
                 <span className="highlight">#Responsive</span>
                 <span className="highlight">#MaterialUi</span>
                 <span className="highlight">#Kanban</span>
-              </p>
+              </div>
+            
               <div className="project-link">
                 <a href="https://the-social-code.herokuapp.com/">
                   <LanguageIcon /> Check it out!
@@ -70,14 +73,14 @@ export default function Projects() {
                 community and allow them to share their reviews of districts
                 around the world.
               </p>
-              <p className="techstack">
-                {" "}
+              <div className="techstack">
+    
                 <span className="highlight">#NodeJs</span>
                 <span className="highlight">#ExpressJs</span>
                 <span className="highlight">#Bootstrap</span>
                 <span className="highlight">#Responsive</span>
                 <span className="highlight">#Kanban</span>
-              </p>
+              </div>
               <div className="project-link">
                 <a href="http://flatme.herokuapp.com/">
                   <LanguageIcon /> Check it out!
@@ -105,13 +108,13 @@ export default function Projects() {
                 game, the user must avoid the obstacles on the canvas and grab
                 the prices to increase score.
               </p>
-              <p className="techstack">
-                {" "}
+              <div className="techstack">
+    
                 <span className="highlight">#Javascript</span>
                 <span className="highlight">#HTML</span>
                 <span className="highlight">#CSS</span>
                 <span className="highlight">#Kanban</span>
-              </p>
+              </div>
               <div className="project-link">
                 <a href="https://marta8919.github.io/veggie-wars-game/">
                   <LanguageIcon /> Check it out!

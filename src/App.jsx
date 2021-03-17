@@ -1,11 +1,10 @@
 import { React } from "react";
 import { Switch, Route, withRouter } from "react-router-dom";
-import Navbar from "./components/Nav";
+import Navbar from "./components/MyNav"
 import About from './components/About'
 import HomePage from './components/HomePage'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
 import NotFound from './components/NotFound'
 
 function App() {
@@ -31,7 +30,6 @@ function App() {
             }}
           />
       </Switch>
-      {/* <Footer/> */}
     </div>
   );
 }
