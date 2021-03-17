@@ -178,13 +178,59 @@
 .mynav-link {
   margin: auto 10px auto auto;
   padding: 2px;
+  text-decoration: none;
+  color: var(--main-blue);
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .mynav-link:hover{
-  border-bottom: 1px solid black;
+  text-decoration: none;
+  color: #eddc6b;
+  background-color: var(--main-blue);
 }
 
-@media (max-width: 500px){
+@media (max-width: 970px){
+  .project-section{
+    line-height: 1.5rem;
+  }
+
+  .my-project-card{
+    width: 500px;
+  }
+
+  .project-card{
+    width: 500px;
+  }
+
+  .techstack{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-link a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media(max-width: 850px){
+  .my-project-card{
+    width: 300px;
+  }
+
+  .project-card{
+    width: 300px;
+  }
+
+  .contact-img {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 700px){
   .fake-code{
     padding: 20px;
     text-align: center;
@@ -219,11 +265,11 @@
   }
 
   .my-project-card{
-    width: 300px;
+    width: 500px;
   }
 
   .project-card{
-    width: 300px;
+    width: 500px;
   }
 
   .techstack{
@@ -237,6 +283,17 @@
   }
 
   .contact-img {
+    width: 300px;
+  }
+
+}
+
+@media(max-width: 600px){
+  .my-project-card{
+    width: 300px;
+  }
+
+  .project-card{
     width: 300px;
   }
 

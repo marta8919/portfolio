@@ -5,6 +5,7 @@ import Container from "@material-ui/core/Container";
 import InfoIcon from "@material-ui/icons/Info";
 import AccountTreeIcon from "@material-ui/icons/AccountTree";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
+import {Link} from 'react-router-dom'
 
 export default function HomePage() {
   return (
@@ -23,16 +24,16 @@ export default function HomePage() {
             <br></br>
 
             <div className="my-group-btn">
-              <a className="my-link" href="/about">
+              <Link className="my-link" to={"/about"}>
                 <InfoIcon /> About
-              </a>
-              <a className="my-link" href="/projects">
+              </Link>
+              <Link className="my-link" to={"/projects"}>
                 <AccountTreeIcon /> Projects
-              </a>
+              </Link>
 
-              <a className="my-link" href="/contact">
+              <Link className="my-link" to={"/contact"}>
                 <ContactMailIcon /> Contact
-              </a>
+              </Link>
             </div>
           </Typist>
         </Container>

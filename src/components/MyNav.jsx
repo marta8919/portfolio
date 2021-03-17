@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav"
+import Nav from "react-bootstrap/Nav";
+import {Link} from 'react-router-dom'
 
 export default function MyNav() {
   return (
@@ -9,9 +10,9 @@ export default function MyNav() {
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="ml-auto">
-          <Nav.Item><Nav.Link href="/about" className="mynav-link">About</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/projects" className="mynav-link">Projects</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/contact" className="mynav-link">Contact</Nav.Link></Nav.Item>
+         <Link to={"/about"} className="mynav-link">About</Link>
+         <Link to={"/projects"} className="mynav-link">Projects</Link>
+         <Link to={"/contact"} className="mynav-link">Contact</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

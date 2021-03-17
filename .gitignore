@@ -6,3 +6,5 @@ package-lock.json
 #config vscode
 launch.json
 settings.json
+
+/build
