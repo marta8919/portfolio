@@ -10,7 +10,7 @@ import Footer from './Footer'
 
 export default function Projects() {
   return (
-    <Slide bottom>
+    <Slide right>
       <Container maxWidth="md" className="my-container">
         
         <h1 className="title projects">Projects</h1>
