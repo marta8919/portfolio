@@ -14,12 +14,11 @@ export default function HomePage() {
         <Container maxWidth="md">
           <Typist className="fake-code">
             <h5>
-              Hello, Hallo, Hola!
+              Hola!
               <br></br> 
               I am Marta,
               <strong> Frontend Developer</strong> 🚀 
-              <br></br>Thank you for visiting my
-              website! <br></br> Do you want to explore more?
+             <br></br> What do you want to explore?
             </h5>
             <br></br>
 

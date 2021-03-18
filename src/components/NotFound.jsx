@@ -16,6 +16,7 @@ export default function NotFound() {
             <img
               className="contact-img"
               src="https://res.cloudinary.com/martacloud/image/upload/v1615910902/undraw_Faq_re_31cw_amwnom.png"
+              alt="not found"
             ></img>
           </div>
         </Container>

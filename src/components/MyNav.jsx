@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 export default function MyNav() {
   return (
     <Navbar expand="lg" className="my-nav" fixed="top">
-      <Navbar.Brand href="/"><img src="https://res.cloudinary.com/martacloud/image/upload/v1615807956/logopro_kgmgzl.png" className="nav-logo"></img></Navbar.Brand>
+      <Navbar.Brand href="/"><img src="https://res.cloudinary.com/martacloud/image/upload/v1615807956/logopro_kgmgzl.png" className="nav-logo" alt="logo"></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="ml-auto">

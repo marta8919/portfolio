@@ -5,6 +5,8 @@ import CardContent from "@material-ui/core/CardContent";
 import Footer from "./Footer";
 import Slide from "react-reveal/Slide";
 
+
+
 export default function About() {
   return (
     <>
@@ -38,23 +40,22 @@ export default function About() {
             <p>
               Someone once told me I was a dangerous ensthusiastic person, and
               back then, I couldn't really understand what that person meant.
-              Now, after I few years I get it, my list of hobbies gets longer
-              every year and I am so enthusiastic about new things that I
-              struggle to focus in only one hobbie. Here is a list of my
-              favourite ones.
+              Now, after I few years I get it, my list of hobbies & interests gets longer
+              every year. Here is a list of my favourite ones.
             </p>
             <div className="hobbies-section">
               <Card className="my-card">
                 <img
                   className="img-card"
                   src="https://res.cloudinary.com/martacloud/image/upload/v1615912463/undraw_media_player_ylg8_px5fsc.png"
-                ></img>
+                alt="frontend"></img>
                 <CardContent className="tag">#Frontend</CardContent>
               </Card>
               <Card className="my-card">
                 <img
                   className="img-card"
                   src="https://res.cloudinary.com/martacloud/image/upload/v1615911655/undraw_To_do_re_jaef_gwdxck.png"
+                  alt="productivity"
                 ></img>
                 <CardContent className="tag">#Productivity</CardContent>
               </Card>
@@ -62,6 +63,7 @@ export default function About() {
                 <img
                   className="img-card"
                   src="https://res.cloudinary.com/martacloud/image/upload/v1615911744/undraw_Images_re_0kll_1_ij3dwa.png"
+                  alt="responsive"
                 ></img>
                 <CardContent className="tag">#Responsive</CardContent>
               </Card>
@@ -69,6 +71,7 @@ export default function About() {
                 <img
                   className="img-card"
                   src="https://res.cloudinary.com/martacloud/image/upload/v1615911639/undraw_Books_l33t_ynfnot.png"
+                  alt="reading"
                 ></img>
                 <CardContent className="tag">#Reading</CardContent>
               </Card>
@@ -76,6 +79,7 @@ export default function About() {
                 <img
                   className="img-card"
                   src="https://res.cloudinary.com/martacloud/image/upload/v1615911785/undraw_social_serenity_vhix_xiqlnt.png"
+                  alt="yoga"
                 ></img>
                 <CardContent className="tag">#Yoga</CardContent>
               </Card>
@@ -83,6 +87,7 @@ export default function About() {
                 <img
                   className="img-card"
                   src="https://res.cloudinary.com/martacloud/image/upload/v1615911911/undraw_online_resume_re_ru7s_cinz2u.png"
+                  alt="writing"
                 ></img>
                 <CardContent className="tag">#Writing</CardContent>
               </Card>

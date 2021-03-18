@@ -20,6 +20,7 @@ export default function Projects() {
             <img
               className="project-screenshot"
               src="https://res.cloudinary.com/martacloud/image/upload/v1615887028/Captura_de_pantalla_2021-03-16_a_las_10.30.14-removebg-preview_hmhcf5.png"
+              alt="project one"
             ></img>
           </a>
 
@@ -63,6 +64,7 @@ export default function Projects() {
             <img
               className="project-screenshot"
               src="https://res.cloudinary.com/martacloud/image/upload/v1615886771/Captura_de_pantalla_2021-03-16_a_las_10.25.43-removebg-preview_nr9mhy.png"
+              alt="project 2"
             ></img>
           </a>
           <Card className="my-project-card">
@@ -98,6 +100,7 @@ export default function Projects() {
             <img
               className="project-screenshot"
               src="https://res.cloudinary.com/martacloud/image/upload/v1615886948/Captura_de_pantalla_2021-03-16_a_las_10.28.52-removebg-preview_drr9zs.png"
+              alt="project 3"
             ></img>
           </a>
           <Card className="my-project-card">

@@ -24,7 +24,7 @@ export default function Contact() {
               <AlternateEmailIcon />
             </a>
           </div>
-          <img className="contact-img" src="https://res.cloudinary.com/martacloud/image/upload/v1615913030/undraw_online_test_gba7_uktwct.png"></img>
+          <img className="contact-img" src="https://res.cloudinary.com/martacloud/image/upload/v1615913030/undraw_online_test_gba7_uktwct.png" alt="contact"></img>
         </div>
       </Container>
 
