@@ -5,7 +5,8 @@ import Container from "@material-ui/core/Container";
 import InfoIcon from "@material-ui/icons/Info";
 import AccountTreeIcon from "@material-ui/icons/AccountTree";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
+import NotesIcon from "@material-ui/icons/Notes";
 
 export default function HomePage() {
   return (
@@ -15,10 +16,9 @@ export default function HomePage() {
           <Typist className="fake-code">
             <h5>
               Hola!
-              <br></br> 
-              I am Marta,
-              <strong> Frontend Developer</strong> 🚀 
-             <br></br> What do you want to explore?
+              <br></br>I am Marta,
+              <strong> Frontend Developer</strong> 🚀
+              <br></br> What do you want to explore?
             </h5>
             <br></br>
 
@@ -33,6 +33,10 @@ export default function HomePage() {
               <Link className="my-link" to={"/contact"}>
                 <ContactMailIcon /> Contact
               </Link>
+              <a className="my-link" href="https://martagg.medium.com/">
+                <NotesIcon />
+                Blog
+              </a>
             </div>
           </Typist>
         </Container>

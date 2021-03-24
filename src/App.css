@@ -228,19 +228,21 @@
     width: 500px;
   }
 
+  .my-group-btn{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my-link{
+    margin: auto;
+  }
+
 }
 
 @media (max-width: 700px){
   .fake-code{
     padding: 20px;
     text-align: center;
-  }
-  .my-group-btn{
-    display: flex;
-    flex-direction: column;
-  }
-  .my-link{
-    margin: auto;
   }
 
   .section{

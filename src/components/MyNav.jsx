@@ -12,7 +12,9 @@ export default function MyNav() {
         <Nav className="ml-auto">
          <Link to={"/about"} className="mynav-link">About</Link>
          <Link to={"/projects"} className="mynav-link">Projects</Link>
+
          <Link to={"/contact"} className="mynav-link">Contact</Link>
+         <a href="https://martagg.medium.com/" className="mynav-link">Blog</a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

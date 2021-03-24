@@ -5,6 +5,7 @@ import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 import Slide from "react-reveal/Slide";
 import Footer from "./Footer";
 import Container from "@material-ui/core/Container";
+import TwitterIcon from "@material-ui/icons/Twitter";
 
 export default function Contact() {
   return (
@@ -20,11 +21,18 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/martagilabertgu/">
               <LinkedInIcon />
             </a>
+            <a href="https://twitter.com/martagigu89">
+              <TwitterIcon />
+            </a>
             <a href="mailto:info@martagg.com">
               <AlternateEmailIcon />
             </a>
           </div>
-          <img className="contact-img" src="https://res.cloudinary.com/martacloud/image/upload/v1615913030/undraw_online_test_gba7_uktwct.png" alt="contact"></img>
+          <img
+            className="contact-img"
+            src="https://res.cloudinary.com/martacloud/image/upload/v1615913030/undraw_online_test_gba7_uktwct.png"
+            alt="contact"
+          ></img>
         </div>
       </Container>
 
