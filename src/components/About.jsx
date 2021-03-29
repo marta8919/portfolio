@@ -22,7 +22,7 @@ export default function About() {
               curious so I checked out the website that very same day.
             </p>
             <p>
-              I remembered the first surprised when I wrote "Hello World" on the
+              I remember the first surprised when I wrote "Hello World" on the
               html and saw it on the screen. From that moment on, the idea of
               actually learn more about it kind of stayed in my brain. Kept
               doing some tutorials, free intro courses I could find here and
@@ -40,7 +40,7 @@ export default function About() {
             <p>
               Someone once told me I was a dangerous ensthusiastic person, and
               back then, I couldn't really understand what that person meant.
-              Now, after I few years I get it, my list of hobbies & interests gets longer
+              Now, after a few years I get it, my list of hobbies & interests gets longer
               every year. Here is a list of my favourite ones.
             </p>
             <div className="hobbies-section">
