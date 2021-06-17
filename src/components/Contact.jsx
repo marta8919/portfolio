@@ -9,7 +9,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 
 export default function Contact() {
   return (
-    <Slide right>
+    <Slide bottom>
       <Container maxWidth="md" className="my-container">
         <div className="contact-page">
           <h2 className="title">Questions?</h2>
