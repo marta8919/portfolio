@@ -6,14 +6,17 @@ import HomePage from "./components/HomePage";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
+import {isMobile} from 'react-device-detect';
+
 
 function App() {
+
   return (
     <div className="main">
-      <Navbar />
+        <Navbar />
       <Switch>
 
-      <Route exact={true} path="/" component={HomePage} />
+      <Route exact={true} path="/" component={HomePage}/>
       <Route exact={true} path="/about" component={About} />
       <Route exact={true} path="/projects" component={Projects} />
       <Route exact={true} path="/contact" component={Contact} />
