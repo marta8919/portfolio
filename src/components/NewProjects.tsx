@@ -5,7 +5,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 export default function NewProjects(){
 
     let projectsArr=[
-        {img: 'https://res.cloudinary.com/martacloud/image/upload/v1615887028/Captura_de_pantalla_2021-03-16_a_las_10.30.14-removebg-preview_hmhcf5.png',
+        {img: 'https://res.cloudinary.com/martacloud/image/upload/v1647890557/angled-floating-iphone-x-mockup-against-a-transparent-backdrop-a13833_2_c9z0ki.png',
         link: 'https://the-social-code.herokuapp.com/',
             date: 'March, 2021',
         title: 'The Social Code',
@@ -16,7 +16,7 @@ export default function NewProjects(){
             {tag: 'repository', icon: GitHubIcon, text: 'Repository (server)', link: 'https://github.com/marta8919/the-social-code-client'}
         ]},
 
-        {img: "https://res.cloudinary.com/martacloud/image/upload/v1615886771/Captura_de_pantalla_2021-03-16_a_las_10.25.43-removebg-preview_nr9mhy.png",
+        {img: "https://res.cloudinary.com/martacloud/image/upload/v1647890557/angled-floating-iphone-x-mockup-against-a-transparent-backdrop-a13833_3_c71zbh.png",
             link: 'http://flatme.herokuapp.com/',
             date: 'February, 2021',
             title: 'Flatme',
@@ -24,10 +24,10 @@ export default function NewProjects(){
                 '                                community and allow them to share their reviews of districts\n' +
                 '                                around the world.',
             stack: ['Javascript', 'NodeJs', 'MongoDB', 'Bootstrap'],
-            check: [{tag: 'deployed', icon: LanguageIcon, link: 'https://the-social-code.herokuapp.com/', text: 'Check it out!'},
+            check: [{tag: 'deployed', icon: LanguageIcon, link: 'https://flatme.herokuapp.com/', text: 'Check it out!'},
                 {tag: 'repository', icon: GitHubIcon, link: 'https://github.com/marta8919/flatme', text: 'Repository'}]},
 
-        {img: 'https://res.cloudinary.com/martacloud/image/upload/v1615886948/Captura_de_pantalla_2021-03-16_a_las_10.28.52-removebg-preview_drr9zs.png',
+        {img: 'https://res.cloudinary.com/martacloud/image/upload/v1647890807/iphone-x-mockup-against-transparent-background-a17152_tvr4bh.png',
             link: 'https://marta8919.github.io/veggie-wars-game/',
             date: 'January, 2021',
             title: 'Game',
