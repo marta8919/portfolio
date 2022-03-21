@@ -11,7 +11,7 @@ import Footer from './Footer'
 export default function Projects() {
   return (
     <Slide bottom>
-      <Container maxWidth="md" className="my-container">
+      <Container maxWidth="md" className="my-container" id={'projects'}>
         
         <h1 className="title projects">Projects</h1>
         <div className="project-section">
@@ -130,7 +130,7 @@ export default function Projects() {
           </Card>
         </div>
       </Container>
-      <Footer/>
+      {/*<Footer/>*/}
     </Slide>
   );
 }

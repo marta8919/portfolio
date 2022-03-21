@@ -10,7 +10,7 @@ export default function MyNav() {
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="ml-auto">
-         <Link to={"/about"} className="mynav-link">About</Link>
+         <Link to={"about"} className="mynav-link">About</Link>
          <Link to={"/projects"} className="mynav-link">Projects</Link>
 
          <Link to={"/contact"} className="mynav-link">Contact</Link>

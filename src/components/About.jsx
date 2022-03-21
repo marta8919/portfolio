@@ -7,12 +7,13 @@ import Slide from "react-reveal/Slide";
 
 
 
-export default function About() {
+export default function About(props) {
   return (
     <>
       <Slide bottom>
         <Container maxWidth="md" className="my-container">
           <div className="section">
+
             <h1 className="title">About</h1>
             <p>
               I discovered programming few years ago when I started to work as a
@@ -94,7 +95,7 @@ export default function About() {
             </div>
           </div>
         </Container>
-        <Footer />
+        {/*<Footer />*/}
       </Slide>
     </>
   );

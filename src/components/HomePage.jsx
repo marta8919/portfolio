@@ -18,7 +18,7 @@ export default function HomePage(props) {
 
                     <h4>
 
-                        <br></br>I am Marta,
+                        Hi there! I am Marta,
                         <strong> Frontend Developer</strong> 🚀
                         <br></br>
                         <br></br> What do you want to explore?

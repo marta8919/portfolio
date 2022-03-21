@@ -2,15 +2,10 @@ import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
-import Slide from "react-reveal/Slide";
-import Footer from "./Footer";
-import Container from "@material-ui/core/Container";
 import TwitterIcon from "@material-ui/icons/Twitter";
 
 export default function Contact() {
   return (
-    <Slide bottom>
-      <Container maxWidth="md" className="my-container">
         <div className="contact-page">
           <h2 className="title">Questions?</h2>
           <h3 className="title">Get in touch!</h3>
@@ -34,9 +29,5 @@ export default function Contact() {
             alt="contact"
           ></img>
         </div>
-      </Container>
-
-      <Footer />
-    </Slide>
   );
 }
